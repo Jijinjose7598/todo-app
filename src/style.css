@@ -1,0 +1,187 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply styles to make the app take full screen */
+html,
+body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    /* Example font */
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    /* Take full width */
+    max-width: none;
+    /* Remove max-width limit */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.task-heading {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+    margin: 0 20px 0 20px;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-primary {
+    background-color: #28a745;
+    border: 1px solid #28a745;
+    outline: 1px solid #28a745;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.btn-danger {
+    background-color: #D25C1D;
+}
+
+.btn-danger:hover {
+    background-color: #D25C1D;
+}
+
+.card {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    /* Take full width */
+    max-width: 100%;
+    /* Ensure card does not exceed screen width */
+    background: #ccf5d3;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-text {
+    margin-bottom: 10px;
+}
+
+.select-status {
+    width: 100%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.input-container {
+    margin-bottom: 10px;
+
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+        /* Adjust card width for smaller screens */
+    }
+
+    .task-heading2 {
+        margin: 0;
+        /* Remove margin for status filter */
+    }
+}
+
+.name-input {
+    width: 40%;
+    margin-left: 50px;
+    margin-right: 30px;
+    box-sizing: border-box;
+    border: 2px solid #4BBE9E;
+    border-radius: 5px;
+}
+
+.description-input {
+    width: 40%;
+    border: 2px solid #4BBE9E;
+    border-radius: 5px;
+}
+
+.task-heading1{
+margin-left: 50px;
+}
+
+.task-heading2 {
+    margin-left: 895px;
+    box-sizing: border-box;
+}
+
+.middle-area {
+    margin-bottom: 50px;
+    margin-top: 30px;
+    box-sizing: border-box;
+
+}
+
+.heading {
+    margin-left: 550px;
+    color: #45C3A0;
+}
+
+.btn-1 {
+    background: orange;
+}
+
+.select-status{
+background:#7ba7ed;
+width: 300px;
+}
+
+.drop-down {
+    width: 100px;
+    height: 30px;
+    background: #FE8381;
+    border-radius: 5px;
+}
+
+.option-not-completed {
+    background: #e87979;
+    /* Background color for Not Completed */
+}
+
+.option-completed {
+    background: lightgreen;
+    /* Background color for Completed */
+}
